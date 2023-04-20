@@ -20,14 +20,12 @@
 }
 
 @media (max-width: 768px) {
-
     .todo-app {
         text-align: center;
     }
-
 }
 
-.main-page-element {
+.main-page {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -48,7 +46,7 @@
     padding: 0px;
 }
 
-.li,
+.task__item,
 .h3 {
     list-style: none;
 }
@@ -112,7 +110,7 @@
 }
 
 /* Task list */
-.li {
+.task__item {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -121,32 +119,32 @@
     align-items: center;
 }
 
-.li > * {
+.task__item > * {
     vertical-align: middle;
 }
 
-.li > .input[type="checkbox"] {
+.task__item > .input[type="checkbox"] {
     margin: 0 10px;
 }
 
-.li > .label {
+.task__item > .label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
 
-.li > .input[type="text"] {
+.task__item > .input[type="text"] {
     width: 226px;
 }
 
-.button.delete img {
+.button.task__delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-.button.delete img:hover {
+.button.task__delete img:hover {
     transform: rotateZ(0);
 }
 
