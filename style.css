@@ -20,9 +20,11 @@
 }
 
 @media (max-width: 768px) {
+
     .todo-app {
         text-align: center;
     }
+    
 }
 
 .main-page-element {
