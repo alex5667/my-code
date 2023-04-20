@@ -24,7 +24,7 @@
     .todo-app {
         text-align: center;
     }
-    
+
 }
 
 .main-page-element {
@@ -107,7 +107,7 @@
     margin: 0 0 20px;
 }
 
-.input#new-task {
+.input #new-task {
     width: 318px;
 }
 
@@ -151,7 +151,7 @@
 }
 
 /* Completed */
-.tasks-list#completed-tasks {
+.tasks-list #completed-tasks {
     text-decoration: line-through;
     color: #888;
 }
